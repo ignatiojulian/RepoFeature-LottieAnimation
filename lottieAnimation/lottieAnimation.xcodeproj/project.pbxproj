@@ -14,10 +14,7 @@
 		75BDDEF52702D8AB00013DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDEF32702D8AB00013DD6 /* Main.storyboard */; };
 		75BDDEF72702D8AE00013DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDEF62702D8AE00013DD6 /* Assets.xcassets */; };
 		75BDDEFA2702D8AE00013DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDEF82702D8AE00013DD6 /* LaunchScreen.storyboard */; };
-		75BDDF062702DB1500013DD6 /* sunset-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDF052702DB1500013DD6 /* sunset-lottie.json */; };
-		75BDDF082702DD1B00013DD6 /* tennis.json in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDF072702DD1B00013DD6 /* tennis.json */; };
-		75BDDF0A2702DD5300013DD6 /* wecover-skel.json in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDF092702DD5300013DD6 /* wecover-skel.json */; };
-		75BDDF0C2702DEF900013DD6 /* plant-growing-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDF0B2702DEF900013DD6 /* plant-growing-animation.json */; };
+		75D4C9CB2702E12F008181A1 /* pizza.json in Resources */ = {isa = PBXBuildFile; fileRef = 75D4C9CA2702E12F008181A1 /* pizza.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +28,7 @@
 		75BDDEF62702D8AE00013DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75BDDEF92702D8AE00013DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75BDDEFB2702D8AE00013DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75BDDF052702DB1500013DD6 /* sunset-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "sunset-lottie.json"; path = "../../../../../../../Downloads/sunset-lottie.json"; sourceTree = "<group>"; };
-		75BDDF072702DD1B00013DD6 /* tennis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tennis.json; path = ../../../../../../../Downloads/tennis.json; sourceTree = "<group>"; };
-		75BDDF092702DD5300013DD6 /* wecover-skel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "wecover-skel.json"; path = "../../../../../../../Downloads/wecover-skel.json"; sourceTree = "<group>"; };
-		75BDDF0B2702DEF900013DD6 /* plant-growing-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "plant-growing-animation.json"; path = "../../../../../../../Downloads/plant-growing-animation.json"; sourceTree = "<group>"; };
+		75D4C9CA2702E12F008181A1 /* pizza.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pizza.json; sourceTree = "<group>"; };
 		E6673F9B840EDFE66F6D69F6 /* Pods-lottieAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottieAnimation.release.xcconfig"; path = "Target Support Files/Pods-lottieAnimation/Pods-lottieAnimation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,10 +104,7 @@
 		75BDDF042702DAF300013DD6 /* Lottie Animations */ = {
 			isa = PBXGroup;
 			children = (
-				75BDDF052702DB1500013DD6 /* sunset-lottie.json */,
-				75BDDF072702DD1B00013DD6 /* tennis.json */,
-				75BDDF092702DD5300013DD6 /* wecover-skel.json */,
-				75BDDF0B2702DEF900013DD6 /* plant-growing-animation.json */,
+				75D4C9CA2702E12F008181A1 /* pizza.json */,
 			);
 			path = "Lottie Animations";
 			sourceTree = "<group>";
@@ -195,12 +186,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D4C9CB2702E12F008181A1 /* pizza.json in Resources */,
 				75BDDEFA2702D8AE00013DD6 /* LaunchScreen.storyboard in Resources */,
 				75BDDEF72702D8AE00013DD6 /* Assets.xcassets in Resources */,
-				75BDDF062702DB1500013DD6 /* sunset-lottie.json in Resources */,
-				75BDDF082702DD1B00013DD6 /* tennis.json in Resources */,
-				75BDDF0A2702DD5300013DD6 /* wecover-skel.json in Resources */,
-				75BDDF0C2702DEF900013DD6 /* plant-growing-animation.json in Resources */,
 				75BDDEF52702D8AB00013DD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
