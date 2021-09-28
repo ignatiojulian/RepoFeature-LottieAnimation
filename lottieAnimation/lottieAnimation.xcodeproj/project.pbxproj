@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1895763084E97A5D8992D2 /* Pods_lottieAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0124B3ACB8C6879148A05F8D /* Pods_lottieAnimation.framework */; };
 		75BDDEEE2702D8AB00013DD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDDEED2702D8AB00013DD6 /* AppDelegate.swift */; };
 		75BDDEF02702D8AB00013DD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDDEEF2702D8AB00013DD6 /* SceneDelegate.swift */; };
 		75BDDEF22702D8AB00013DD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDDEF12702D8AB00013DD6 /* ViewController.swift */; };
 		75BDDEF52702D8AB00013DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDEF32702D8AB00013DD6 /* Main.storyboard */; };
 		75BDDEF72702D8AE00013DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDEF62702D8AE00013DD6 /* Assets.xcassets */; };
 		75BDDEFA2702D8AE00013DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDEF82702D8AE00013DD6 /* LaunchScreen.storyboard */; };
+		75BDDF062702DB1500013DD6 /* sunset-lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDF052702DB1500013DD6 /* sunset-lottie.json */; };
+		75BDDF082702DD1B00013DD6 /* tennis.json in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDF072702DD1B00013DD6 /* tennis.json */; };
+		75BDDF0A2702DD5300013DD6 /* wecover-skel.json in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDF092702DD5300013DD6 /* wecover-skel.json */; };
+		75BDDF0C2702DEF900013DD6 /* plant-growing-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 75BDDF0B2702DEF900013DD6 /* plant-growing-animation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0124B3ACB8C6879148A05F8D /* Pods_lottieAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lottieAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BBEA28BCB915687F06A9FEE /* Pods-lottieAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottieAnimation.debug.xcconfig"; path = "Target Support Files/Pods-lottieAnimation/Pods-lottieAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		75BDDEEA2702D8AB00013DD6 /* lottieAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottieAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75BDDEED2702D8AB00013DD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75BDDEEF2702D8AB00013DD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		75BDDEF62702D8AE00013DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75BDDEF92702D8AE00013DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75BDDEFB2702D8AE00013DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75BDDF052702DB1500013DD6 /* sunset-lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "sunset-lottie.json"; path = "../../../../../../../Downloads/sunset-lottie.json"; sourceTree = "<group>"; };
+		75BDDF072702DD1B00013DD6 /* tennis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tennis.json; path = ../../../../../../../Downloads/tennis.json; sourceTree = "<group>"; };
+		75BDDF092702DD5300013DD6 /* wecover-skel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "wecover-skel.json"; path = "../../../../../../../Downloads/wecover-skel.json"; sourceTree = "<group>"; };
+		75BDDF0B2702DEF900013DD6 /* plant-growing-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "plant-growing-animation.json"; path = "../../../../../../../Downloads/plant-growing-animation.json"; sourceTree = "<group>"; };
+		E6673F9B840EDFE66F6D69F6 /* Pods-lottieAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottieAnimation.release.xcconfig"; path = "Target Support Files/Pods-lottieAnimation/Pods-lottieAnimation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1895763084E97A5D8992D2 /* Pods_lottieAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				75BDDEEC2702D8AB00013DD6 /* lottieAnimation */,
 				75BDDEEB2702D8AB00013DD6 /* Products */,
+				E7813A64272D36B69A38ECD8 /* Pods */,
+				D64585B56C7ED90D2463F696 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,68 @@
 		75BDDEEC2702D8AB00013DD6 /* lottieAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				75BDDEED2702D8AB00013DD6 /* AppDelegate.swift */,
-				75BDDEEF2702D8AB00013DD6 /* SceneDelegate.swift */,
+				75BDDF032702DAE500013DD6 /* Resources */,
+				75BDDF012702D8D800013DD6 /* Base */,
+				75BDDF022702D8E200013DD6 /* View */,
 				75BDDEF12702D8AB00013DD6 /* ViewController.swift */,
-				75BDDEF32702D8AB00013DD6 /* Main.storyboard */,
-				75BDDEF62702D8AE00013DD6 /* Assets.xcassets */,
-				75BDDEF82702D8AE00013DD6 /* LaunchScreen.storyboard */,
 				75BDDEFB2702D8AE00013DD6 /* Info.plist */,
 			);
 			path = lottieAnimation;
+			sourceTree = "<group>";
+		};
+		75BDDF012702D8D800013DD6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				75BDDEED2702D8AB00013DD6 /* AppDelegate.swift */,
+				75BDDEEF2702D8AB00013DD6 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		75BDDF022702D8E200013DD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75BDDEF32702D8AB00013DD6 /* Main.storyboard */,
+				75BDDEF82702D8AE00013DD6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75BDDF032702DAE500013DD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75BDDF042702DAF300013DD6 /* Lottie Animations */,
+				75BDDEF62702D8AE00013DD6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75BDDF042702DAF300013DD6 /* Lottie Animations */ = {
+			isa = PBXGroup;
+			children = (
+				75BDDF052702DB1500013DD6 /* sunset-lottie.json */,
+				75BDDF072702DD1B00013DD6 /* tennis.json */,
+				75BDDF092702DD5300013DD6 /* wecover-skel.json */,
+				75BDDF0B2702DEF900013DD6 /* plant-growing-animation.json */,
+			);
+			path = "Lottie Animations";
+			sourceTree = "<group>";
+		};
+		D64585B56C7ED90D2463F696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0124B3ACB8C6879148A05F8D /* Pods_lottieAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7813A64272D36B69A38ECD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BBEA28BCB915687F06A9FEE /* Pods-lottieAnimation.debug.xcconfig */,
+				E6673F9B840EDFE66F6D69F6 /* Pods-lottieAnimation.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75BDDEFE2702D8AE00013DD6 /* Build configuration list for PBXNativeTarget "lottieAnimation" */;
 			buildPhases = (
+				FE52A07E6F53EFAF7D98A3AB /* [CP] Check Pods Manifest.lock */,
 				75BDDEE62702D8AB00013DD6 /* Sources */,
 				75BDDEE72702D8AB00013DD6 /* Frameworks */,
 				75BDDEE82702D8AB00013DD6 /* Resources */,
+				9A0BD714E7B25B18F59BBFCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +197,57 @@
 			files = (
 				75BDDEFA2702D8AE00013DD6 /* LaunchScreen.storyboard in Resources */,
 				75BDDEF72702D8AE00013DD6 /* Assets.xcassets in Resources */,
+				75BDDF062702DB1500013DD6 /* sunset-lottie.json in Resources */,
+				75BDDF082702DD1B00013DD6 /* tennis.json in Resources */,
+				75BDDF0A2702DD5300013DD6 /* wecover-skel.json in Resources */,
+				75BDDF0C2702DEF900013DD6 /* plant-growing-animation.json in Resources */,
 				75BDDEF52702D8AB00013DD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A0BD714E7B25B18F59BBFCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lottieAnimation/Pods-lottieAnimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lottieAnimation/Pods-lottieAnimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lottieAnimation/Pods-lottieAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE52A07E6F53EFAF7D98A3AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lottieAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75BDDEE62702D8AB00013DD6 /* Sources */ = {
@@ -284,6 +400,7 @@
 		};
 		75BDDEFF2702D8AE00013DD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBEA28BCB915687F06A9FEE /* Pods-lottieAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +428,7 @@
 		};
 		75BDDF002702D8AE00013DD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6673F9B840EDFE66F6D69F6 /* Pods-lottieAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
