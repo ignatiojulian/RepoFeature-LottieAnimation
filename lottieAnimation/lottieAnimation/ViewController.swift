@@ -5,6 +5,8 @@
 //  Created by Ignatio Julian on 28/09/21.
 //
 
+// Download Animation at: https://lottiefiles.com/featured
+
 import UIKit
 import Lottie
 
